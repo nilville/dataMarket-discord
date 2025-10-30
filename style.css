@@ -129,6 +129,21 @@ body {
   background: linear-gradient(to right, transparent, #F7C9A0, transparent);
 }
 
+.discord-button {
+  display: inline-block;
+  background-color: #5865F2;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.discord-button:hover {
+  background-color: #4752C4;
+}
+
 @media (max-width: 768px) {
   .info {
     flex-direction: column;
